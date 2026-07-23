@@ -1,0 +1,20 @@
+{
+  "diff": true,
+  "extension": ["js"],
+  "package": "./package.json",
+  "reporter": "mochawesome",
+  "reporter-option": [
+    "reportDir=reports",
+    "reportFilename=index",
+    "quiet=false",
+    "json=true",
+    "html=true",
+    "overwrite=true",
+    "timestamp=false"
+  ],
+  "slow": 15000,
+  "timeout": 120000,
+  "ui": "bdd",
+  "recursive": true,
+  "spec": ["tests/**/*.test.js"]
+}
